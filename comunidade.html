@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+	<title>Comunidade</title>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <link rel="icon" href="img/bandeira.jpg">
+	 <link rel="stylesheet" type="text/css" href="css/comunidade.css">
+</head>
+<body >
+
+	<!--Barra de navegação-->
+	<header >
+
+		<h1>ANGOGEST</h1>
+		<nav  class="menu-opcoes">
+		
+			
+		<ul>
+			
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
+			<li><a href="comunidade.html">COMUNIDADE</a></li>
+		</ul>	
+						
+	</nav>
+	</header>
+	
+	<!-- secção de conteúdo-->
+	<section class="row">
+		<article>
+			<p>
+			Ao se inscrever nesta comunidade, você receberá em seu email, <br>todos os dias um video de apio e, terá direito a consultas por videoconferências<br> com especialistas em terapia e psicologia que  o vão ajudar, reuniões online sobre planeamento familiar e prevenção de gravidez.<br> As videoconferências serão realizadas nas mais diversas plataformas digitais existentes, tudo isso sem sair do conforto da sua casa!!	
+			</p>
+		</article>
+	</section>
+	<div class="container">
+
+		
+
+
+		<!-- Formulário -->
+		
+			<form>
+			<!-- Linha -->
+		<div class="linha">
+			<!-- Coluna 1 -->
+			<div class="coluna ">
+				<fieldset>
+					<legend>Dados pessoais</legend>
+					<label for="nome">
+						<strong>Nome: </strong>
+					
+					</label><br><input type="text" minlength="6" maxlength="20" name="nome" id="nome" required="required"  title="digite apenas um nome" ><br><br>
+
+					<label for="sobrenome">
+						<strong>Sobrenome: </strong>
+					</label><br>
+					<input type="text" minlength="6" maxlength=20 id="sobrenome" name="sobrenome" required="required"  title="digite apenas um nome" ><br><br>
+
+					<label for="dt_nascimento">
+						<strong>Data de nascimento: </strong>
+					</label><br>
+					<input type="date" id="dt_nascimento" name="dt_nascimento" required="required"><br><br>
+
+					<p><strong>Estado civil:</strong></p>
+
+					<label for="solteiro" class="amarelo">Solteiro</label>
+					<input type="radio" name="estado_civil" id="solteiro" required="required">
+
+
+					<label for="casado" class="amarelo">Casado</label>
+					<input type="radio" name="estado_civil" id="casado" required="required">
+					<br><br>
+
+
+					<p><strong>Sexo:</strong></p>
+
+					<label for="masculino" class="amarelo">Masculino</label>
+					<input type="radio" name="sexo" id="masculino" required="required">
+
+
+					<label for="femenino" class="amarelo">Femenino</label>
+					<input type="radio" name="sexo" id="femenino" required="required">
+					<br><br>
+					<p>Fale um pouco sobre você, e sua situação!</p>
+					<br>
+					<textarea  minlength="100" cols="10" rows="5" required="required">
+						
+					</textarea>
+					<br>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Limpar">
+				</fieldset>
+
+			</div>
+			<!-- Coluna 2 -->
+			<div class="coluna ">
+				<fieldset class="maior">
+					<legend>Endereço</legend>
+					<label for="pais">
+						<strong>País</strong>
+					</label><br>
+					<input type="text" name="pais" id="pais" value="Angola" disabled><br><br>
+
+					<label for="provincia">
+						<strong>Província</strong>
+					</label><br>
+
+					<select required="">
+						<option>Cabinda</option>
+						<option>Zaire</option>
+						<option>Uige</option>
+						<option>Bengo</option>
+						<option>Cuanza Norte</option>
+						<option>Malange</option>
+						<option>Lunda Norte</option>
+						<option>Luanda</option>
+						<option>Cuanza Sul</option>
+						<option>Lunda Sul</option>
+						<option>Benguela</option>
+						<option>Huambo</option>
+						<option>Bié</option>
+						<option>Moxico</option>
+						<option>Namibe</option>
+						<option>Huíla</option>
+						<option>Cunene</option>
+						<option>Cuando Cubango</option>
+
+					</select><br><br>
+
+					<label for="municipio">
+						<strong>Município:</strong>
+					</label><br>
+					<input type="text" minlength="4" maxlength="25" name="municipio" id="municipio" required="required" title="digite apenas um nome" size="25"><br><br>
+
+					<label for="bairro">
+						<strong>Bairro:</strong>
+					</label><br>
+					<input type="text"  minlength="4" maxlength="25" name="bairro" id="bairro" required="required"  size="25"><br><br>
+
+					<label for="casa">
+						<strong>Casa Nº:</strong>
+					</label><br>
+					<p>Preencha apenas o campo que se adequa a sua localidade</p>
+					<input type="number" min="0"   name="casa" id="casa" maxlength="9" minlength="2" placeholder="opcional"> <input type="text" name="casa" placeholder="Bloco - prédio - Entrada - Apartamento(Opcional)" size="38">
+				</fieldset>
+
+				<br><br>
+				<fieldset class="menor">
+					<legend>Contactos</legend>
+
+					<label for="email">
+						<strong>E-mail:</strong>
+					</label><br>
+
+					<input type="email" name="email" id="email" placeholder="ex: email@gmail.com" required="required"><br>
+
+					<label for="telefone">
+						<strong>Nº de telefone:</strong>
+					</label><br>
+
+					<input type="number" name="numero" min="0" id="numero"  minlength="9" required="required" ><br>
+				</fieldset>
+			</div>
+			
+		</div>
+
+		
+		</form>
+		
+
+		
+	</div>
+
+
+	<!--fim formulário-->
+	
+	<!--video-->
+
+	
+	<section class="linha">
+		<h1>Multimédia</h1>
+
+		<article >
+			<h2>Gravidez precoce <br> <span class="amarelo">no munndo</span> </h2>
+			<video width="150px" height="100px" controls poster="img/1.jpg">
+				<source src="video/Gravidez_Precoce.mp4" type="video/mp4" >
+			</video>
+		</article>
+
+		<article>
+			<h2>Gravidez precoce <br> <span class="amarelo">no munndo</span> </h2>
+			<video width="150px" height="100px" controls poster="img/1.jpg">
+				<source src="video/Gravidez_Precoce.mp4" type="video/mp4" >
+			</video>
+		</article>
+
+		<article>
+			<h2>Gravidez precoce <br> <span class="amarelo">no munndo</span> </h2>
+			<video width="150px" height="100px" controls poster="img/1.jpg">
+				<source src="video/Gravidez_Precoce.mp4" type="video/mp4" >
+			</video>
+		</article>
+	</section>
+
+
+	<!--início rodapé-->
+<!--início rodapé-->
+<footer  >
+	<div class="container">
+			<!-- Primeira linha -->
+	<div class="linha" >
+		<!-- Primeira coluna -->
+		<div class="coluna um">
+			<img src="img/navigation.png">
+			<h2 class="amarelo">&nbsp;Navegação</h2>
+			<br><br><br><br>
+			<ul >
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
+				<li><a href="comunidade.html">COMUNIDADE</a></li>
+
+			</ul>
+		
+		</div>
+		<!-- segunda coluna -->
+		<div class="coluna um">
+			<img src="img/link.png">
+			<h2>&nbsp;Links <span class="amarelo">Úteis</span></h2>
+			<br><br><br><br>
+			<ul >
+				<li><a target="blank" href="https://pt.wikipedia.org/wiki/Per%C3%ADodo_menstrual">MESTRUAÇÃO</a></li>
+				<li><a href="realidade_angolana.html">A REALIDADE ANGOLANA</a></li>
+				<li><a target="bla" href="https://pt.wikipedia.org/wiki/Reprodu%C3%A7%C3%A3o_medicamente_assistida">REPROUÇÃO MEDICAMENTE ASSISTIDA</a></li>
+
+				</ul>
+		</div>
+		
+	</div>
+	<br>
+
+	<!-- segunda linha -->
+	<div class="linha">
+		<!-- Primeira coluna -->
+		<div class="coluna">
+			<img src="img/news.png">
+			<h2 class="amarelo">Newsletter</h2>
+			<br><br><br>
+			<p >Para receber um email sobre novos artigos, inscreva-se...</p>
+			
+			<form action="" onsubmit="alert('Inscrição feita com sucesso!')">
+					
+				<label>
+					Nome completo:<br>
+					<input type="text" name="nome" required="" placeholder="ex: Manuel Luvuvamo"title="Digite um nome válido"  minlength="8" maxlength="30">
+				</label>
+				<br>
+				<label>
+					E-mail: <br>
+					<input type="email" name="email" required title="Por favor digite um email válido" placeholder="ex:email@gmail.com">
+				</label><br>
+
+					<input type="submit" name="inscrever" value="Inscrever">
+					<input type="reset" name="limpar" value="Limpar">
+						
+			</form>
+		</div>
+		<!-- segunda coluna -->
+		<div class="coluna follow">
+			<img src="img/follow.png">
+			<h2>&nbsp;Follow <span class="amarelo">Us</span></h2>
+			<br><br><br><br>
+		
+			<a target="blank" href="https://free.facebook.com/manuel.dapausapausa?ref_component=mfreebasic_home_header&ref_page=%2Fwap%2Fhome.php&refid=8">Facebook</a>
+			<a target="blank" href="https://www.instagram.com/manuel_luvuvamo/">Istagram</a>
+			<br><br>	
+			<a target="blank" href="https://www.youtube.com/channel/UCxHnFBTSuazAWFFCnZ0DZVQ">Youtube</a>
+			<a target="blank" href="https://github.com/manuelluvuvamo?tab=repositories">Github</a>
+			<br><br>
+			<p>&copy;Copyright 2021 - Manuel António Luvuvamo</p>
+			
+		</div>
+	</div>
+	</div>		
+</footer>
+</body>
+</html>
