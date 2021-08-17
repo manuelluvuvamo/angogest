@@ -16,20 +16,20 @@
 	
 
 	<!--Barra de navegação-->
-	<header >
-
+	<header>
 		<h1>ANGOGEST</h1>
-		<nav  class="menu-opcoes">
+		<a href="#" id="AbrirMenu" onclick="VerMenu()">AbrirMenu</a>
+		<a href="#" id="FecharMenu" onclick="FecharMenu()">FecharMenu</a>
+
+		<nav  class="menu-opcoes" id="list">
+			<ul>
+				<li><a href="comunidade.html">COMUNIDADE</a></li>
+				<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
+				<li><a href="index.html">HOME</a></li>
+			</ul>					
+		</nav>
+
 		
-			
-		<ul>
-			
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
-			<li><a href="comunidade.html">COMUNIDADE</a></li>
-		</ul>	
-						
-	</nav>
 	</header>
 	<!--secção de conteúdo-->
 	<div class="container">
@@ -173,6 +173,19 @@
 	</div>
 	</div>		
 </footer>
+
+<script>
+	function VerMenu(){
+		
+		document.getElementById('list').style="display:block;"
+		
+	}
+	function FecharMenu(){
+		
+		document.getElementById('list').style="display:none;"
+		
+	}
+</script>
 	
 </body>
 </html>

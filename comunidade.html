@@ -11,20 +11,20 @@
 <body >
 
 	<!--Barra de navegação-->
-	<header >
-
+	<header>
 		<h1>ANGOGEST</h1>
-		<nav  class="menu-opcoes">
+		<a href="#" id="AbrirMenu" onclick="VerMenu()">AbrirMenu</a>
+		<a href="#" id="FecharMenu" onclick="FecharMenu()">FecharMenu</a>
+
+		<nav  class="menu-opcoes" id="list">
+			<ul>
+				<li><a href="comunidade.html">COMUNIDADE</a></li>
+				<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
+				<li><a href="index.html">HOME</a></li>
+			</ul>					
+		</nav>
+
 		
-			
-		<ul>
-			
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
-			<li><a href="comunidade.html">COMUNIDADE</a></li>
-		</ul>	
-						
-	</nav>
 	</header>
 	
 	<!-- secção de conteúdo-->
@@ -42,7 +42,7 @@
 
 		<!-- Formulário -->
 		
-			<form>
+			<form onsubmit="Cadastrar()">
 			<!-- Linha -->
 		<div class="linha">
 			<!-- Coluna 1 -->
@@ -284,6 +284,36 @@
 		</div>
 	</div>
 	</div>		
+	
 </footer>
+	<script>
+		function Cadastrar(){
+
+			let nome = document.getElementById('nome').value;
+			let sobrenome = document.getElementById('sobrenome').value;
+			let nomeCompleto = nome+" "+sobrenome;
+			alert(`Bem-vindo a esta grande comunidade ${nomeCompleto} irá receber um email nosso todos os dias.`);
+			confirm("Ficou satisfeito com o conteúdo do site?");
+		}
+
+		function VerMenu(){
+		
+		document.getElementById('list').style="display:block;"
+		
+		
+	
+		
+	}
+	function FecharMenu(){
+		
+		document.getElementById('list').style="display:none;"
+		
+		
+
+	
+		
+	}
+	</script>
+
 </body>
 </html>

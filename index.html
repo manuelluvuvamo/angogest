@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
 	<meta charset="utf-8">
 	<title>Página inicial</title>
-	<meta name="google-site-verification" content="kwLsvlLpxO6ZrreREMiEFv9xKmuxj-XV09OHSXCqVnI" />
-	<meta  name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	 <link rel="icon" href="img/bandeira.jpg">
 	 <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -17,31 +16,31 @@
 	
 
 	<!--Barra de navegação-->
-	<header >
-
+	<header>
 		<h1>ANGOGEST</h1>
-		<nav  class="menu-opcoes">
+		<a href="#" id="AbrirMenu" onclick="VerMenu()">AbrirMenu</a>
+		<a href="#" id="FecharMenu" onclick="FecharMenu()">FecharMenu</a>
+
+		<nav  class="menu-opcoes" id="list">
+			<ul>
+				<li><a href="comunidade.html">COMUNIDADE</a></li>
+				<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
+				<li><a href="index.html">HOME</a></li>
+			</ul>					
+		</nav>
+
 		
-			
-		<ul>
-			
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
-			<li><a href="comunidade.html">COMUNIDADE</a></li>
-		</ul>	
-						
-	</nav>
 	</header>
 	
-
+	
 	<!--banner inscreva - se-->
 	<div class="banner">
 		<h1>Venha encontrar a solução para os<br> seus <span class="amarelo">problemas</span>!!</h1>
-		<br><br><br>
+		<br>
 				
 		<p>Se você está <strong>grávida</strong>, teve filhos, sofreu abuso e é adolescente e não sabe como se protejer, clique abaixo e se inscreva na comunidade de apoio psicológico!! Até para você que é homem relacionado de algum modo como o pontos acima mencionados podes se inscrever!!</p>
 		
-
+	
 		<a href="comunidade.html"><button>Inscrever-se</button></a>
 		
 			
@@ -61,9 +60,9 @@
 					<figcaption>Mãe adolescente</figcaption>
 
 				</figure>
-			</div>
+				</div>
 
-			<div id="conteudo"  >
+				<div id="conteudo"  >
 				
 				<p >
 									
@@ -73,21 +72,21 @@
 
 				<!-- <button>Ver mais</button> -->
 
-				<div id="mais">
+				<div >
 					<p >
 							
-					Embora as adolescentes grávidas enfrentem os mesmos desafios do que as demais mulheres, existem riscos médicos acrescidos para as grávidas com idade inferior a 15 anos e riscos associados a fatores socioeconómicos para as mães entre os 15 e 19 anos de idade. Em países desenvolvidos, a gravidez na adolescência está muitas vezes associada a problemas sociais, incluindo menor nível de educação e maior pobreza, e ocorre geralmente fora do casamento, o que pode constituir um estigma social em muitas comunidades e culturas. A gravidez na adolescência é prevenida com educação sexual abrangente e acesso a métodos contracetivos. A educação sexual baseada apenas na abstinência sexual não aparenta ser eficaz. 
+					Embora as adolescentes grávidas enfrentem os mesmos desafios do que as demais mulheres, existem riscos médicos acrescidos para as grávidas com idade inferior a 15 anos e riscos associados a fatores socioeconómicos para as mães entre os 15 e 19 anos de idade. Em países desenvolvidos, a gravidez na adolescência está muitas vezes associada a problemas sociais, incluindo menor nível de educação e maior pobreza, e ocorre geralmente fora do casamento, o que pode constituir um estigma social em muitas comunidades e culturas. A gravidez na adolescência é prevenida com educação sexual abrangente e acesso a métodos contracetivos. A educação sexual baseada apenas na abstinência sexual não aparenta ser eficaz. <span id="mais" onclick="verMais()" class="amarelo" style="cursor: pointer;">Ver mais</span>
 					
 				</p><br>
 				
-				<p>
+				<p style="display: none;" id="verMais1">
 					A gravidez precoce é motivo de preocupação em funçao das consequências devastadoras para o desenvolvimento tanto da mãe quanto da criança, visto que expressa um exemplo perfeito da interaçao de riscos biológicos e ambientais. A gravidez na adolescência pode ser considerada problema de saúde pública em funçao da alta prevalência e das consequências desastrosas para o desenvolvimento infantil. A análise a nível da literatura permitiu identificar a necessidade de se desenvolverem programas de intervenção para gravidez na adolescência, que devem ter como objetivos prevenir a sua ocorrência, aumentar habilidades parentais, fornecer serviços de pré-natal, diminuir taxa de reincidência de outra gravidez precoce e promover desenvolvimento adequado da criança fruto de uma gravidez na adolescência. Adicionalmente, é necessário maior número de pesquisas que identifiquem aspectos relacionados a resultados de eficiência e eficácia em uma intervenção destinada a essa populaçao.
 					
 				</p><br>
 				
-				<p>
+				<p style="display: none;" id="verMais2">
 					
-					Em Angola, entre mil mulheres dos 15 aos 19 anos de idade, pelo menos, <strong>163</strong> já deram à luz. Experiências sexuais precoces são observadas em adolescentes em famílias onde os irmãos mais velhos já apresentam vida sexual ativa. É comum encontrar adolescentes grávidas cujas mães também iniciaram a vida sexual precocemente ou engravidaram durante a sua adolescência. Por outro lado, famílias onde existe o hábito da conversa e há orientação sobre a vida sexual, a situação pode ser diferente. Veja também: <a  href="realidade_angolana.html">Gravidez e maternidade na adolescência – A realidade Angolana.</a>
+					Em Angola, entre mil mulheres dos 15 aos 19 anos de idade, pelo menos, <strong>163</strong> já deram à luz. Experiências sexuais precoces são observadas em adolescentes em famílias onde os irmãos mais velhos já apresentam vida sexual ativa. É comum encontrar adolescentes grávidas cujas mães também iniciaram a vida sexual precocemente ou engravidaram durante a sua adolescência. Por outro lado, famílias onde existe o hábito da conversa e há orientação sobre a vida sexual, a situação pode ser diferente. Veja também: <a  href="realidade_angolana.html">Gravidez e maternidade na adolescência – A realidade Angolana.</a><span id="menos" onclick="verMenos()" class="amarelo" style="cursor: pointer;"> Ver menos</span>
 					
 				</p>
 
@@ -256,6 +255,44 @@
 	</div>		
 </footer>
 
+
+
+<script>
+
+	function verMais(){
+		document.getElementById('mais').style="display:none;";
+		document.getElementById('verMais1').style="display:block;";
+		document.getElementById('verMais2').style="display:block;";
+
+	}
+	function verMenos(){
+		document.getElementById('mais').style="display:inline-block; cursor:pointer;";
+		document.getElementById('verMais1').style="display:none;";
+		document.getElementById('verMais2').style="display:none;";
+
+	}
+
+	function VerMenu(){
+		
+		document.getElementById('list').style="display:block;"
+		
+		
+	
+		
+	}
+	function FecharMenu(){
+		
+		document.getElementById('list').style="display:none;"
+		
+		
+
+	
+		
+	}
+
+
+
+</script>
 	
 </body>
 </html>
