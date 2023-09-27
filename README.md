@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Angogest" src="#" width="100px" />
+  <img alt="Angogest" src="https://angogest.vercel.app/img/bandeira.jpg" width="100px" />
 </p>
 
 <p align="center">
