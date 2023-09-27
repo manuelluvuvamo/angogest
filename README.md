@@ -27,8 +27,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 <br />
 
 <p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://photos.app.goo.gl/pBtd6bKwYkWKQ2nv7" alt="banner"/>
+  <a href="https://angogest.vercel.app/" target="_blank">
+    <img align="center" src="https://angogest.vercel.app/img/angogest.png" alt="banner"/>
   </a>
 </p>
 
