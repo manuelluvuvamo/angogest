@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+<p align="center">
+  <img alt="Angogest" src="#" width="100px" />
+</p>
 
-You can use the [editor on GitHub](https://github.com/manuelluvuvamo/AngoGest/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Angogest&message=Awareness&color=ffca00&labelColor=202024" alt="Rocketseat Project" />
+  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=ffca00&labelColor=202024" alt="License"></a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 💻 Projeto
 
-### Markdown
+Um site experimental abordando sobre a gravidez precoce, um trabalho prático de TIC usando HTML 5 e CSS 3.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 📝 Licença
 
-```markdown
-Syntax highlighted code block
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+<p align="center">
+  Feito com 💛 by Manuel Luvuvamo
+</p>
 
-1. Numbered
-2. List
+<!--START_SECTION:footer-->
 
-**Bold** and _Italic_ and `Code` text
+<br />
+<br />
 
-[Link](url) and ![Image](src)
-```
+<p align="center">
+  <a href="https://discord.gg/rocketseat" target="_blank">
+    <img align="center" src="https://photos.app.goo.gl/pBtd6bKwYkWKQ2nv7" alt="banner"/>
+  </a>
+</p>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/manuelluvuvamo/AngoGest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!--END_SECTION:footer-->
